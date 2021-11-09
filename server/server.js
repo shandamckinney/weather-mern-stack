@@ -28,9 +28,9 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 // Connect to Mongo
-// mongoose.connect(process.env.DB, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// }).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
+mongoose.connect('mongodb+srv://shanda:shanda@cluster0.x963p.mongodb.net/mySecondDatabase?retryWrites=true&w=majority', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+}).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
 
 app.listen(port, () => console.log(`Listening on port ${port}`));

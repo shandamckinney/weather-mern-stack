@@ -1,2 +1,2 @@
-WEATHER_KEY=[Weather API key can be found at https://home.openweathermap.org/api_keys]
-DB=[mongo database connection string can be found at on cloud.mongodb.com > Clusters > Connect button]
+WEATHER_KEY=1899bb0353ced0b11b92264a57ca0094
+DB='mongodb+srv://shanda:shanda@cluster0.x963p.mongodb.net/mySecondDatabase?retryWrites=true&w=majority'
